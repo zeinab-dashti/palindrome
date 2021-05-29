@@ -2,7 +2,7 @@
 This is a backend service for palindrome game, implemented using Java, Spring Boot, PostgreSQL, and Docker. 
 
 ### Prerequisites
-You need to have Docker and Maven (also provided in the repo as Maven Wrapper).
+You need to have Docker and Maven installed on your machine.
 
 ### Installation
 1. Clone the repo
