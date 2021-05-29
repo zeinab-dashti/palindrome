@@ -14,12 +14,12 @@ an embedded H2 database.
    ```sh
    mvn clean install
    ``` 
-3. Run the project inside Docker.
+3. Run the project inside Docker. This command starts Spring boot application on port 8080 connected to 
+PostgreSQL (Dockerized).
    ```sh
    docker-compose up --build
    ```
-   **Note: for next runs, remove ```--build``` argument.**
-   This command starts Spring boot application on port 8080 connected to PostgreSQL (Dockerized). 
+   **Note: for next runs, remove ```--build``` argument.** 
 
 ## API usage
 **Swagger UI**:
