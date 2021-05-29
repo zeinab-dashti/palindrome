@@ -7,14 +7,14 @@ You need to have Docker and Maven installed on your machine.
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/zeinab-dashti/palindrome.git
    ```
-2. Build the project.
+2. Build the project. This command compiles the project and runs tests (both unit and end-to-end) against 
+an embedded H2 database.
    ```sh
    mvn clean install
-   ```
-   This command compiles the project and runs tests (both unit and end-to-end) against an embedded H2 database. 
-2. Run the project inside Docker.
+   ``` 
+3. Run the project inside Docker.
    ```sh
    docker-compose up --build
    ```
